@@ -15,6 +15,7 @@
 | [`docs/00_about-this-pack.md`](docs/00_about-this-pack.md) | このパックの目的・対象者・全体構成 |
 | [`docs/01_roadmap.md`](docs/01_roadmap.md) | 8週間の学習ロードマップ、案件同士の前提関係 |
 | [`docs/02_environment-setup.md`](docs/02_environment-setup.md) | 演習環境(VirtualBox・OSイメージ・AWSアカウント)の準備 |
+| [`docs/03_beginner-start-guide.md`](docs/03_beginner-start-guide.md) | コマンドの読み方、安全確認、作業ログの残し方を学ぶ初心者向けスタートガイド |
 
 ## 案件一覧(全10案件)
 
@@ -36,9 +37,10 @@
 ## 使い方の流れ
 
 1. [`docs/02_environment-setup.md`](docs/02_environment-setup.md) を読み、演習用の環境(VirtualBoxなど)を用意する
-2. [`docs/01_roadmap.md`](docs/01_roadmap.md) を読み、自分のペースで取り組む順番・スケジュールを決める
-3. `cases/` フォルダの案件を番号順に実施し、区切りごとにGitへコミットする
-4. [`docs/91_portfolio-guide.md`](docs/91_portfolio-guide.md) を参考に、取り組んだ案件をポートフォリオとして仕上げる
+2. [`docs/03_beginner-start-guide.md`](docs/03_beginner-start-guide.md) でコマンド例の読み方、安全な進め方、作業ログの残し方を確認する
+3. [`docs/01_roadmap.md`](docs/01_roadmap.md) を読み、自分のペースで取り組む順番・スケジュールを決める
+4. `cases/` フォルダの案件をロードマップの推奨順序で実施し、区切りごとにGitへコミットする
+5. [`docs/91_portfolio-guide.md`](docs/91_portfolio-guide.md) を参考に、取り組んだ案件をポートフォリオとして仕上げる
 
 ## ディレクトリ構成
 
@@ -60,6 +62,7 @@ support/
 │   ├── 00_about-this-pack.md
 │   ├── 01_roadmap.md
 │   ├── 02_environment-setup.md
+│   ├── 03_beginner-start-guide.md
 │   ├── 90_glossary.md
 │   └── 91_portfolio-guide.md
 └── templates/
